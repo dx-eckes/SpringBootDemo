@@ -14,4 +14,9 @@ public class TestController {
         m.addAttribute("host","asdfasdfasdf");
         return "ok";
     }
+
+    @GetMapping("/")
+    public String index(){
+        return "redirect:/swagger-ui.html";
+    }
 }
