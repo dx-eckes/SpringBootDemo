@@ -4,7 +4,7 @@ import io.swagger.annotations.*;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@Api(value = "测试API接口",description = "测试接口描述")
+@Api(value = "测试API接口,rest接口",description = "测试接口描述")
 public class TestRestController {
 
     @ApiOperation(value="测试rest接口", notes="测试rest接口，测试get接口")
